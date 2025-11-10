@@ -3,7 +3,11 @@ uuid = "2307d5ef-4098-4b7f-b172-079629361863"
 authors = ["WuJC <jmwjc@163.com> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+Gmsh = "705231aa-382f-11e9-3f0c-b7cb4346fdeb"
+
 [compat]
+Gmsh = "0.3.1"
 julia = "1.6.7"
 
 [extras]
