@@ -1,6 +1,6 @@
 using BiRefine
 
-function f(x,t)
+function fn(x,t)
     if x < t - 1
         return 2/π
     elseif x > t
@@ -10,4 +10,4 @@ function f(x,t)
     end
 end
 
-birefine("msh/square.msh", f, order=10, tol=1e-13, maxiter=4)
+birefine("msh/impact_4.msh", fn, order=10, tol=1e-13, maxiter=2)
